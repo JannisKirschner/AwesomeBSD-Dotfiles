@@ -1,0 +1,27 @@
+#! /bin/sh
+
+bspc monitor -d I II III IV V
+
+
+bspc config border_width                5
+bspc config window_gap                  20
+bspc config split_ratio                 0.52
+bspc config borderless_monocle          true
+bspc config gapless_monocle             true
+bspc config focus_follows_pointer       true
+bspc config auto_alternate              false
+bspc config auto_cancel                 true
+bspc config top_padding                 16
+bspc config normal_border_color         "#181512"
+bspc config focused_border_color        "#00FFFF"
+bspc config presel_border_color         "#AC4142"
+
+bspc config normal_frame_opacity        0.0
+bspc config focused_frame_opacity       0.05
+
+bspc rule -a Skype -d ^3 --floating
+bspc config rule_command "$(which rule_command)"
+
+#conky -c ~/.conkyrings/.conkyrc &
+#compton --config ~/.config/compton.conf &
+#~/.config/bspwm/panel/panel &> /tmp/panel.log
