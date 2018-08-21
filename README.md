@@ -22,3 +22,8 @@ Windowed Mode:
 
 The awesome wallpaper is by https://dribbble.com/MikaelGustafsson
 
+
+# How to
+
+Here's my simple tutorial with all the steps you need to take:   
+https://github.com/JannisKirschner/General-IT-Stuff/tree/master/FreeBSD
