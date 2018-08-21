@@ -1,5 +1,11 @@
 # AwesomeBSD-Dotfiles
-Dotfiles for my FreeBSD &amp; Bspwm config
+Dotfiles for my FreeBSD &amp; Bspwm config  
+
+Tabbed Mode:
+![Tabbed](https://i.imgur.com/QDjh1Cv.jpg?raw=true)
+
+Windowed Mode:
+![Windowed](https://i.imgur.com/uDmXv0R.jpg?raw=true)
 
 ## Requires
 
@@ -11,3 +17,8 @@ Dotfiles for my FreeBSD &amp; Bspwm config
 - Urxvt
 - Lemonbar
 - Conky
+
+# Licence
+
+The awesome wallpaper is by https://dribbble.com/MikaelGustafsson
+
